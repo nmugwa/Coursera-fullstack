@@ -1,0 +1,7 @@
+$('#scroll_'+i).on('click', function(event){
+     if( $(event.target).hasClass('scroll')) alert('got it!');
+});
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
