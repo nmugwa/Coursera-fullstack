@@ -1,1 +1,47 @@
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-toggle {
+  @media (min-width: 768px) {
+    display: none !important;
+  }
+}
+.navbar-nav a:hover, .navbar-nav a: focus {
+  text-decoration: none;
+  color: #0000;
+  text-align: center;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  padding-top: 5px;
+  color: red;
+}
+.col-xs-12{
+  border: 2px solid red;
+  padding: 10px;
+}
+#main-content {
+  padding: 10px;
+}
+#Content {
+  column-gap: 30px;
+  padding-top: 10px;
+}
+.text-center {
+  font-size: 1.9em;
+  padding-top: 10px;
+  color: blue;
+}
+
+@media (max-width: 576px) {
+  .col-xs-12 {
+    width: 80%;
+    margin-left: 50px;
+  }
+}
 
