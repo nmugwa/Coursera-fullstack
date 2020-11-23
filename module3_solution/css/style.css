@@ -1,1 +1,36 @@
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-toggle {
+  @media (min-width: 768px) {
+    display: none !important;
+  }
+}
+.navbar-nav a:hover, .navbar-nav a: focus {
+  text-decoration: none;
+  color: #0000;
+  text-align: center;
+}
 
+.navbar-collapse {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  padding-top: 5px;
+}
+.col{
+  border: 2px solid red;
+  
+}
+#main-content {
+  padding: 10px;
+}
+#Content {
+  column-gap: 30px;
+}
+.text-center {
+  font-size: 1.9em;
+  padding-top: 10px;
+}
